@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         viewFlipper = findViewById(R.id.view_flipper);
-        viewFlipper.setFlipInterval(2000);
+        viewFlipper.setFlipInterval(1000);
         viewFlipper.startFlipping();
 
         TextView textView = new TextView(this);
